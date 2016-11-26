@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML Forms</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<form>
+  <div class="info">
+    <div class="title">
+      <h2>Your Name</h2>
+    </div>
+    <div class="input">
+      <ul>
+        <li>
+          <h4>First</h4>
+          <input type= "text" name= "firstname" size= "20" maxlength= "20"/>
+        </li>
+        <li>
+          <h4>Middle Initial </h4>
+          <input type= "text" name= "middleinitial" size= "2" maxlength= "1"/>
+        </li>
+        <li>
+          <h4>Last</h4>
+          <input type= "text" name= "lastname" size= "20" maxlength= "20"/>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="info">
+    <div class="title">
+      <h2>Your Location</h2>
+    </div>
+    <div class="input">
+      <ul>
+        <li>
+          <h4>Address</h4>
+          <input type= "text" name= "address" size= "15" maxlength= "20"/>
+        </li>
+        <li>
+          <h4>City</h4>
+          <input type= "text" name= "city" size= "15" />
+        </li>
+        <li>
+          <h4>State</h4>
+          </td>
+          <input type= "text" name= "state" size= "15"/>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <h4>Zip Code</h4>
+          <input type= "text" name= "zip" size= "15"/>
+        </li>
+        <li><br>
+        </li>
+        <li>
+          <h4>County</h4>
+          <select name="county" >
+            <option value="ASH">Ashtabula</option>
+            <option value="CUY" selected>Cuyahoga</option>
+            <option value="GEA">Geauga</option>
+            <option value="LAK">Lake</option>
+            <option value="LOR">Lorain</option>
+            <option value="POR">Portage</option>
+          </select>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="info">
+    <div class="title">
+      <h2>Contact Info</h2>
+    </div>
+    <div class="input">
+      <ul>
+        <li>
+          <h4>Phone</h4>
+          <input type= "text" name= "phone" size= "12"/>
+        </li>
+        <li>
+          <h4>E-mail</h4>
+          <input type= "text" name= "email" size= "18"/>
+        </li>
+      </ul>
+      <table class= "int">
+        <tr>
+          <td><h4 class="visit">Reasons for visit</h4></td>
+        </tr>
+        <tr>
+          <td class="boxes"><input type= "checkbox" name= "interests" value= "Movies">
+            Products
+            <input type= "checkbox" name= "interests" value= "Music">
+            Services
+            <input type= "checkbox" name= "interests" value= "Reading">
+            Information
+            <input type= "checkbox" name= "interests" value= "Other">
+            Other</td>
+        </tr>
+      </table>
+    </div>
+    <table class= "pref">
+      <tr>
+        <td><h4 class="pref">Peference</h4></td>
+        <td><input type= "radio" name= "pref" value= "p">
+          Phone</br>
+          <input type= "radio" name= "pref" value= "e" >
+          E-mail</td>
+      </tr>
+    </table>
+    &nbsp; </div>
+  <div class= "button">
+    <input type= "submit" name= "submit" value= "Send" />
+  </div>
+</form>
+</body>
+</html>
