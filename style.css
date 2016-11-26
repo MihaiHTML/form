@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	background-color: #3877D8;
+	color: white;
+}
+h2 {
+	color: white;
+}
+h4 {
+	color: white;
+	font-size: 1.5 em;
+	margin-bottom: -2px;
+}
+h4.visit {
+	margin-bottom: -3px;
+}
+h4.pref {
+	margin-top: -5px;
+}
+div.info {
+	background-color: #211E62;
+	padding: 10px;
+	border: solid white;
+	border-radius: 10px;
+	border-left: 0px;
+	width: 450px;
+	margin: 10px;
+	overflow: auto;
+}
+div.input {
+	overflow: auto;
+	background-color: #3877D8;
+	margin-left: -35px;
+	margin-top: -5px;
+	border-radius: 10px;
+	border: solid white;
+	content-align: center;
+}
+div.title {
+	background-color: #3877D8;
+	width: 200px;
+	height: 60px;
+	border: solid white;
+	border-bottom: none;
+	border-left: none;
+	border-radius: 10px;
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	display: inline;
+	float: left;
+	padding: 4px;
+	;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: -30px;
+	margin-bottom: 20px;
+}
+table.pref {
+	float: left;
+	margin-left: 305px;
+	margin-top: -96px;
+}
+table.int {
+	margin-top: -25px;
+	margin-left: 40px;
+	float: left;
+	margin-bottom: 20px;
+}
+td.boxes {
+	padding-top: 12px;
+}
+div.button {
+	margin-left: 415px;
+	font-size: 18px;
+	margin-top: -39px;
+}
